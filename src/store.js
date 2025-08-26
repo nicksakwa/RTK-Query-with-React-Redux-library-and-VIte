@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { setupListerners } from '@reduxjs/toolkit/query';
+import { setupListeners } from '@reduxjs/toolkit/query';
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const pokemonApi = createApi({
@@ -22,4 +22,4 @@ export const store = configureStore({
         getDefaultMiddleware().concat(pokemonApi.middleware),
 })
 
-setupListerners(store.dispatch);
+setupListeners(store.dispatch);
