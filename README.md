@@ -10,3 +10,12 @@ This template provides a minimal setup to get React working in Vite with HMR and
     npm install
     npm install @reduxjs/toolkit react-redux
  ```
+## How to run this example
+
+To execute the RTK Query app in this repository
+
+1.  Navigate to the directory containing the  files in your terminal.
+2.  Run the desired script using the Python interpreter:
+    ```bash
+    npm run dev
+    ```
